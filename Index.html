@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walrus Data Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Decentralized Data Marketplace</h1>
+  </header>
+
+  <section class="marketplace">
+    <div class="dataset-card">
+      <h2>🌍 Arctic Climate Sensor Dataset</h2>
+      <p>Price: 2 SUI</p>
+      <button>Buy</button>
+    </div>
+
+    <div class="dataset-card">
+      <h2>🐋 Walrus Migration Dataset (2023)</h2>
+      <p>Price: 3 SUI</p>
+      <button>Buy</button>
+    </div>
+  </section>
+
+  <section class="ai-tools">
+    <h2>🤖 AI Data Classifier</h2>
+    <textarea id="datasetInput" placeholder="Paste dataset text..."></textarea>
+    <button onclick="analyzeData()">Analyze</button>
+
+    <h2>🔍 Truth Engine Authenticity Check</h2>
+    <button onclick="checkAuthenticity()">Check Authenticity</button>
+    <p id="authResult"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
